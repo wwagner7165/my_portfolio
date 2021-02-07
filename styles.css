@@ -1,0 +1,131 @@
+body {
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+article {
+    margin-bottom: 30px;
+}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+/*Float left to match with main*/
+aside {
+	width: 150px;
+	background-color: #8D8D8D;
+	float: left;
+	height: 30in;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+/*Reduce the size of main by 150px from the header*/
+main {
+    width: 578px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer {
+	width: 768px;
+	height: 50px;
+	background-color: #8D8D8D;
+	clear: both;
+}
+h1 {
+    color: #000420;
+    font-family: politica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+}
+p  {
+    font-family: degular,sans-serif;
+    font-weight: 400;
+    font-style: normal;	
+}
+h3 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.floatLeft{
+	float:left;
+	
+}
+nav {
+	width: 768px;
+	height: 50px;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 60px;
+	margin-right: 60px;
+	font-family: neonoir, sans-serif;
+}
+#container ul {
+	margin: auto;
+	width: 565px;
+}
+nav a:link {
+	color: #00062A;
+	padding: 10px;
+	text-decoration: none;
+}
+    nav a:visited {
+	color: #5D0092;
+	text-decoration: none;
+}
+    nav a:hover {
+	color: #F5F5F5;
+	text-decoration: none;
+	background-color:#00062A;
+	padding: 10px;
+	border-radus: 20px;
+}
+nav a:active {
+	color: #191919;
+	text-decoration: none;
+}
+
+.submit_btn {
+	width: 190px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #000422;
+	color: #FFFFFF;
+	font-size: 18px;
+	
+}
+
+.submit_btn:hover{
+	-webkit-box-shadow: 6px 6px 48px 5px #000000;
+	box-shadow: 6px 6px 48px 5px #000000;
+}
